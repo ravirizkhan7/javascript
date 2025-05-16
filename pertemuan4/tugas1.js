@@ -1,40 +1,22 @@
+
 var biodata = {
     nama : 'ravi',
     usia : 20,
     alamat : 'lubuk alung',
-    umur : 20,
-    univ :{ 
-        univ :'UT',
-        alamat:{
-            alamat:'tangerang',
-        fakultas:{
-            fakulats : 'sains dan teknologi',
-            prodi:{
-                MT:{
-
+    universitas :{ 
+        ut:{
+            jurusan:{
+                Sistem_informasi:{
+                    kelas:'SI C'
                 },
-                Sistem_informasi :{
-
-                },
-                statistika:{
-
-                },
-                Biologi:{
-
-                },
-                Sains_Data:{
-
-                },
-                kelas:{
-                    anak:{
-                        cucu:{
-                            nama:'bud',                        }
-                    }
+                matematika:{
+                    kelas:'MTK D'
                 }
             }
         }
     }
-}
+        
 }
 
-console.log(biodata.kakek.nenek.ayah.ibu.anak.cucu.nama);
+// console.log(biodata.nama+usia+alamat+universitas.UT.jurusan.Sistem_informasi.kelas);
+console.log(biodata.nama+"\n"+biodata.usia+"\n"+biodata.alamat+"\n"+biodata.universitas.ut.jurusan.Sistem_informasi.kelas);
