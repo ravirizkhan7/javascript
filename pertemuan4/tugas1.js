@@ -18,5 +18,4 @@ var biodata = {
         
 }
 
-// console.log(biodata.nama+usia+alamat+universitas.UT.jurusan.Sistem_informasi.kelas);
 console.log(biodata.nama+"\n"+biodata.usia+"\n"+biodata.alamat+"\n"+biodata.universitas.ut.jurusan.Sistem_informasi.kelas);
