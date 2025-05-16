@@ -1,6 +1,6 @@
 var biodata = {
     nama : 'ravi',
-    kelas : 'javasrcipt,laravel',
+    usia : 20,
     alamat : 'lubuk alung',
     umur : 20,
     univ :{ 
