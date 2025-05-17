@@ -23,7 +23,7 @@
 // let b = 7;
 // console.log(a = b);
 
-var a = true;
+var a =     true;
 var b = false;
 
 var hasil1 = a && b;

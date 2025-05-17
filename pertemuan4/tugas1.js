@@ -4,13 +4,13 @@ var biodata = {
     usia : 20,//tipe number
     alamat : 'lubuk alung',// tipe String
     universitas :{ // tipe objek
-        ut:{
-            jurusan:{
-                Sistem_informasi:{
-                    kelas:'SI C'
+        ut:{// tipe objek
+            jurusan:{// tipe objek
+                Sistem_informasi:{// tipe objek
+                    kelas:'SI C'// tipe String
                 },
-                matematika:{
-                    kelas:'MTK D'
+                matematika:{// tipe objek
+                    kelas:'MTK D'// tipe String
                 }
             }
         }
