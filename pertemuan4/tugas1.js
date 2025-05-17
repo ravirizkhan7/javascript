@@ -1,9 +1,9 @@
 
 var biodata = {
-    nama : 'ravi',
-    usia : 20,
-    alamat : 'lubuk alung',
-    universitas :{ 
+    nama : 'ravi',// tipe String
+    usia : 20,//tipe number
+    alamat : 'lubuk alung',// tipe String
+    universitas :{ // tipe objek
         ut:{
             jurusan:{
                 Sistem_informasi:{
